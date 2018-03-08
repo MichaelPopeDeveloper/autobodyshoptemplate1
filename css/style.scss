@@ -1,0 +1,16 @@
+@mixin flex($w, $h, $fd) {
+  display: flex;
+  height: $h;
+  width: $w;
+  flex-direction: $fd;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+
+}
+
+.Home-Slider {
+  @include flex(100%, 70vh, column);
+  background-color: blue;
+}
