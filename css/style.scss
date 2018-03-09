@@ -9,8 +9,59 @@
 
 
 }
+.Home-Nav {
+  height: 6em;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  background-color: #428bca;
+}
 
-.Home-Slider {
-  @include flex(100%, 70vh, column);
+.nav-items-container {
+  margin-right: 5%;
+}
+
+.home-nav-tab {
+  width: 8em;
+  height: 100%;
+  // background-color: blue;
+  transition: background-color 1s ease;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 0px 0px;
+font-size: 140%;
+  border-left: 2px white solid;
+
+}
+
+.home-nav-tab:hover {
   background-color: blue;
+}
+
+.logo {
+margin-left: 1%;
+// width: 8em;
+}
+
+.Home-Jumbo {
+  background: url('../img/home-background.jpeg') no-repeat center center;
+background-size: cover;
+  height: 80vh;
+}
+
+.Home-Jumbo:after {
+    display:block;
+    background-color:rgba(0,0,0,0.5);
+    position:absolute;
+
+    z-index:1 /*Added this in the updated */
+}
+
+// .jumbotron {background-size: 100% 100%; }
+
+.Home-Header {
+  margin-top: 7%;
+}
+
+.Jumbo-subtext {
+  max-width: 43%;
 }
